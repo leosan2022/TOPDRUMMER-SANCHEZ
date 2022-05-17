@@ -46,4 +46,7 @@ html{
 @mixin formatter($ancho, $alto) {
     width: $ancho;
     height: $alto;
+}@mixin formatter2($izquierda, $superior) {
+    margin-left: $izquierda;
+    margin-top: $superior;
 }

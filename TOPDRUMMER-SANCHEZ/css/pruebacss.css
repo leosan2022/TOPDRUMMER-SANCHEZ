@@ -1,0 +1,112 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+/**fuentes**/
+@font-face {
+  font-family: BIZUDP;
+  src: url(/TOPDRUMMER-SANCHEZ/fonts/BIZUDPMincho-Regular.ttf); }
+
+html {
+  font-size: 62.5%; }
+
+/**extend**/
+.h1, .h2, .h3, .h4 {
+  background-color: #1B1A17;
+  color: #F0A500;
+  font-size: 95px;
+  font-family: raggedways;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  margin-right: 90px; }
+
+.h2 {
+  font-size: 45px;
+  font-family: BIZUDP;
+  margin-bottom: 35px;
+  margin-left: 45px; }
+
+.h3, .h4 {
+  background-color: #E45826;
+  color: #F0A500;
+  -webkit-text-stroke-color: #1B1A17;
+  font-size: 50px;
+  border-radius: 50px;
+  border-style: groove; }
+
+.h4 {
+  font-size: 25px;
+  font-family: BIZUDP;
+  text-align: center; }
+
+/**mixin*/
+/** header**/
+.header__prin {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end; }
+
+.header {
+  background-color: #1B1A17;
+  grid-column: 1 / span 6; }
+  .header header__img {
+    width: 450px;
+    height: 220px;
+    margin-left: 42px; }
+
+.header__slogan {
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header__menu {
+  color: #E45826;
+  width: 120%;
+  background-color: #1B1A17;
+  font-size: 30px;
+  font-family: BIZUDP;
+  text-align: left;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.navbar-nav {
+  overflow: hidden;
+  background-color: #1B1A17; }
+  .navbar-nav a {
+    float: left;
+    display: block;
+    color: #E45826;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+
+/*Mapas*/
+.btn-primary {
+  background-color: blue; }
+
+.btn-secundary {
+  background-color: grey; }
+
+.btn-succes {
+  background-color: green; }
+
+.btn-warning {
+  background-color: yellow; }
+
+.text-primary {
+  background-color: blue; }
+
+.text-secundary {
+  background-color: grey; }
+
+.text-succes {
+  background-color: green; }
+
+.text-warning {
+  background-color: yellow; }

@@ -26,25 +26,28 @@ html{
     font-family: raggedways;
     src: url(../fonts/Raggedways\ Regular.otf);
 }
-/*estilos h1 h2 y h3*/ 
+/*estilos h1 h2 h3 y h4*/ 
 h1{
-    background-color: #1B1A17;
     color: #F0A500;
     font-size: 95px;
     font-family: raggedways;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 50px;
-    margin-right: 90px;
+    text-align: start;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-right: 700px;
+    background-image: url(../images/mancha1.png);
+    background-size: 900px 150px;
 }
 h2{
-    background-color: #1B1A17;
     color: #E45826;
     font-size: 45px;
     font-family: BIZUDP;
-    text-align: center;
-    margin-bottom: 35px;
-    margin-left: 45px;
+    margin-bottom: 2px;
+    margin-left: 50px;
+    background-image: url(../images/mancha1.png);
+    background-size: 900px 85px;
+    background-position: left;
+    background-repeat: no-repeat;
 }
 h3{
     background-color:#E45826;
@@ -75,7 +78,9 @@ h4{
 }
 /*estilos del header*/
 .header{
-    background-color: #1B1A17;
+   background-image: url(../images/banner3.jpg);
+   background-repeat: no-repeat;
+   background-size: 1500px 550px;
 }
 header{
     grid-column: 1 / span 6;
@@ -84,12 +89,6 @@ header{
     display: flex;
     justify-content:space-around;
     align-items: flex-end;
-}
-.header{
-    background-color: #1B1A17;
-}
-header{
-    grid-column: 1 / span 6;
 }
 .header__img{
     width: 450px;
@@ -103,26 +102,21 @@ header{
     align-items: center;
 }
 /*bootstrap*/
-.menu{
-background-color: #1B1A17;
-}
 .header__menu{
     color: #E45826;
     width: 120%;
-    background-color: #1B1A17;
     font-size: 30px;
     font-family: BIZUDP;
     text-align: left;
-    text-decoration: none;
+    text-decoration:solid;
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+}    
 /*navbar-nav*/
 .navbar-nav{
     overflow: hidden;
-    background-color: #1B1A17;
 }
 .navbar-nav>a{
     float: left;
@@ -130,7 +124,8 @@ background-color: #1B1A17;
     color: #E45826;
     text-align:center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration:dotted;
+    background-color: #000000;
 }
 /* estilos del main index*/
 .cuerpo{
@@ -215,28 +210,36 @@ main{
 .footer{
     display: flex;
     justify-content: space-between;
-    background-color: #1B1A17;
+    background-color: black;
     font-family: BIZUDP;
     color:#E45826;
     font-size: large;
 }
-footer{
-    grid-column: 1 / span 6;
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: auto;
+    background-color: black;
+    text-align: center;
 }
 .footerimg{
-    width: 160px; 
-    height: 160px;
-    background-color: #1B1A17;
-    border-style: solid;
-    border-color: #E45826;
-    margin-bottom: 10px;
+    width: 150px; 
+    height: 150px;
+    margin-bottom: 30px;
+    margin top: 30px;
     margin-left: auto;
 }
 .footervisit{
     color:#E45826;
     text-decoration: none;
     font-size: large;
-    margin-left: 42px;
+    margin-left: 32px;
+}
+.visit{
+    width: 100px; 
+    height: 100px;
+    margin-left: 30px;
 }
 .table{
     background-color:#1B1A17;
@@ -247,9 +250,9 @@ footer{
     margin-left: 42px;
     }
 .horarios{
-    background-color:#1B1A17;
+    background-color:black;
     font-size: large;
-    margin-left: 42px;
+    margin-left: 62px;
 }
 .linehorarios,th,td{
     border:1px #E6D5B8;
@@ -265,6 +268,16 @@ footer{
     text-decoration: none;
     font-size: large;
     margin: 42px;
+}
+.redes{
+    width: 50px; 
+    height: 50px;
+    margin-left: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
 /*transicion writeus*/
 .importante{
@@ -311,8 +324,8 @@ footer{
         width: 100%;
     }
     .header__img{
-        width: 220px;
-        height: 150px;
+        width: 180px;
+        height: 120px;
         margin-left: 15%;
         margin-top: 40px;
     }
@@ -342,6 +355,7 @@ footer{
     }
     .horarios{
         font-size: small;
+        margin-left: 15px;
     }
     .footervisit{
         font-size: small;
@@ -355,10 +369,10 @@ footer{
         margin-left: 15px;
     }
     .footerimg{
-        width: 120px;
-        height: 120px;
-        margin-left: 15px;
-        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+        margin-left: 12px;
+        margin-top: 16px;
     }
 }
 /*** media desktop***/

@@ -129,34 +129,43 @@ header{
 }
 /* estilos del main index*/
 .cuerpo{
-    background-color: #E6D5B8;
+    background-color: black;
+    color: #E45826;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-style: groove;
 }
+
 main{
     grid-column: 1 / span 6;
 }
-.cuerpo__supersale{
+.cuerpo__newarrivals{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
+    font-size: 30px;
 }
 .parrafo__sale{
     margin: 50px;
     text-align:center;
-    font-size: 35px;
+    font-size: 30px;
 }
 .cuerpo__supersaleimg{
-    top: 10px;
-    left: 100px;
-    margin-left: 25px;
+    width: 620px;
+    height: 380px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 42px;
     border-style: solid;
     border-color: #E45826;
 }
 .cuerpo__newarrivalsimg{
     width: 620px;
     height: 380px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     margin-left: 42px;
     border-style: solid;
     border-color: #E45826;
@@ -167,6 +176,10 @@ main{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 42px;
+    
+}
+.test{
+    text-align: center;
 }
 /*estilos main pages*/
 .titlepages{
@@ -227,7 +240,7 @@ main{
     width: 150px; 
     height: 150px;
     margin-bottom: 30px;
-    margin top: 30px;
+    margin-top: 30px;
     margin-left: auto;
 }
 .footervisit{
@@ -267,7 +280,15 @@ main{
     color:#E45826;
     text-decoration: none;
     font-size: large;
-    margin: 42px;
+    margin: 32px;
+}
+.contact{
+    background-color: black;
+    color: #E45826;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-style: groove;
 }
 .redes{
     width: 50px; 
@@ -431,5 +452,132 @@ main{
         height: 220px;
         margin-left: 15px;
         margin-top: 20px;
+    }
+}
+/*responsive mobile vertical*/
+@media (max-width:320px) {
+    .navbar-nav a {
+        float: none;
+        width: 100%;
+    }
+    .header{
+        width: 150%;
+        height: 150%;
+    }
+    .header__img{
+        width: 120px;
+        height: 120px;
+        margin-left: 15%;
+        margin-top: 40px;
+    }
+    .header__slogan{
+        margin-right: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+    h1{
+        font-size: 60px;
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        margin-left: 30%;
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        margin-left: 30%;
+    }
+    .header__menu{
+        color: #E45826;
+        background-color: #000000;
+        width: 100%;
+        font-size: 20px;
+        font-family: BIZUDP;
+        text-align: left;
+        text-decoration:solid;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .cuerpo{
+        background-color: black;
+        color: #E45826;
+        font-size: 22px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        border-style: groove;
+    }
+    
+    .cuerpo__newarrivals{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    .parrafo__sale{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    .cuerpo__supersaleimg{
+        width: 250px;
+        height: 180px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 42px;
+        border-style: solid;
+        border-color: #E45826;
+    }
+    .cuerpo__newarrivalsimg{
+        width: 250px;
+        height: 180px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 42px;
+        border-style: solid;
+        border-color: #E45826;
+    }
+    .cuerpo__testproductsvid{
+        width: 320px;
+        height: 180px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+   
+    .horarios{
+        font-size: small;
+        margin-left: 15px;
+    }
+    .footervisit{
+        font-size: small;
+        margin-left: 15px;
+    }
+    .contactus{
+        font-size: small;
+    }
+    .table{
+        font-size: 5px;
+        margin-left: 5px;
+    }
+    .footerimg{
+        width: 100px;
+        height: 100px;
+        margin-left: 12px;
+        margin-top: 16px;
+    }
+    .pagesimg{
+        max-width: 30px;
+        width: 40px;
+        height: 28px;
+        margin-left: 15%;
+        border-style: solid;
+        border-color: #E45826;
     }
 }
